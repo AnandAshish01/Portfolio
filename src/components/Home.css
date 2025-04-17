@@ -1,0 +1,54 @@
+.home {
+    display: flex;
+    justify-content: space-between; /* Push content to ends */
+    align-items: center;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    min-height: 10vh; /* Optional: gives it some vertical space */
+}
+
+/* Text area on the left */
+.info {
+    flex: 1;
+    max-width: 50%;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1e1e2f;
+}
+
+.info p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Profile image on the right */
+.profile {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile img {
+    height: 300px; /* 👈 Set your desired image height */
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px; /* optional for a nice rounded edge */
+}
+.download-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #1e1e2f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: 2rem;
+}
+
+.download-btn:hover {
+    background-color: #00bcd4;
+}
