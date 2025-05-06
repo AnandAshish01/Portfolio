@@ -9,6 +9,7 @@ const projects = [
         liveLink: "https://yourportfolio.com",
         githubLink: "https://github.com/yourusername/portfolio"
     },
+    
     {
         title: "E-Commerce App",
         description: "A full-stack MERN application with payment integration.",
